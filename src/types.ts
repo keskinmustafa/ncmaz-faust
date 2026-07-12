@@ -1,39 +1,26 @@
-import { ValueOfOptionFilterDataBy } from "./contains/common";
+import { WordPressTemplate } from "@faustwp/core";
 
-export interface Option<T = string> {
-	label: string;
-	value: T;
-}
-export interface MySelectOption<T = string> extends Option<T> {}
+export type WordPressTemplateProps = Parameters<typeof WordPressTemplate>[0];
 
-export type HtmlTagsType = keyof HTMLElementTagNameMap;
-
-export type MyTabsForColor = "Normal" | "Hover";
-export type MyTabsForActive = "Normal" | "Active";
-
-export type AlignmentH = "left" | "center" | "right";
-export type MyPosition = "left" | "right" | "top" | "bottom";
-
-export type AttrsGenericType<T> = {
-	[k in keyof T]: {
-		type: string;
-		default?: T[k];
-		source?: string;
-		selector?: string;
-		attribute?: string;
-		__experimentalRole?: string;
-	};
+export type ViewerType = {
+  name?: string;
+  username?: string;
+  capabilities?: string[];
+  databaseId?: number;
+  description?: string;
+  email?: string;
+  firstName?: string;
+  id?: number;
+  lastName?: string;
+  nickname?: string;
+  locale?: string;
+  registeredDate?: string;
+  slug?: string;
+  templates?: string[];
+  uri?: string;
+  url?: string;
+  userId?: number;
+  avatar?: {
+    url?: string;
+  };
 };
-//
-export type ContainerEditProps<T, C = any> = {
-	attributes: T;
-	setAttributes: (newAttributes: Partial<T>) => void;
-	clientId: string;
-	isSelected: boolean;
-	context: C;
-	className: string;
-	insertBlocksAfter: Function;
-	onReplace: Function;
-};
-
-export interface EditProps<T, C = any> extends ContainerEditProps<T, C> {}
