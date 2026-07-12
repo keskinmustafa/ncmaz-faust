@@ -14,7 +14,7 @@ export default {
 	'Create comment successfully': 'Yorum başarıyla oluşturuldu',
 	'Username and email are required': 'Kullanıcı adı ve e-posta gerekli',
 	read: 'okuma',
-	'min read': 'dk okuma',
+	'min read': 'dk okuma süresi',
 	'Read more': 'Devamını oku',
 	Reply: 'Yanıtla',
 	'Delete comment': 'Yorumu sil',
