@@ -1,31 +1,12 @@
-import avatar1 from "@/data/avatars/1.jpg";
-import avatar2 from "@/data/avatars/2.jpg";
-import avatar3 from "@/data/avatars/3.jpg";
-import avatar4 from "@/data/avatars/4.jpg";
-import avatar6 from "@/data/avatars/6.jpg";
-import avatar7 from "@/data/avatars/7.jpg";
-import avatar8 from "@/data/avatars/8.jpg";
-import avatar9 from "@/data/avatars/9.jpg";
-import avatar11 from "@/data/avatars/11.jpg";
-import avatar12 from "@/data/avatars/12.jpg";
-import avatar13 from "@/data/avatars/13.jpg";
-import avatar14 from "@/data/avatars/14.jpg";
-import avatar15 from "@/data/avatars/15.jpg";
-
 export const avatarImgs = [
-  avatar1,
-  avatar2,
-  avatar3,
-  avatar4,
-  avatar6,
-  avatar7,
-  avatar8,
-  avatar9,
-  avatar11,
-  avatar12,
-  avatar13,
-  avatar14,
-  avatar15,
+  "https://randomuser.me/api/portraits/men/32.jpg",
+  "https://randomuser.me/api/portraits/women/44.jpg",
+  "https://randomuser.me/api/portraits/men/46.jpg",
+  "https://randomuser.me/api/portraits/men/97.jpg",
+  "https://uifaces.co/our-content/donated/1H_7AxP0.jpg",
+  "https://randomuser.me/api/portraits/women/9.jpg",
+  "https://images-na.ssl-images-amazon.com/images/M/MV5BYzg2NDY4MjAtZDBjNS00MGRhLWJkZDMtYWJkZDM1NWZiMzgyXkEyXkFqcGdeQXVyMTE1MzA3MTI@._V1_UX172_CR0,0,172,256_AL_.jpg",
+  "https://uifaces.co/our-content/donated/VUMBKh1U.jpg",
 ];
 
 const personNames = [
@@ -84,20 +65,14 @@ const featuredImgs = [
   "https://images.pexels.com/photos/848618/pexels-photo-848618.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 ];
 
-export const imgHigtQualitys = [
-  "https://images.pexels.com/photos/4352244/pexels-photo-4352244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-  "https://images.pexels.com/photos/3023211/pexels-photo-3023211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-  "https://images.pexels.com/photos/4066850/pexels-photo-4066850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+const imgHigtQualitys = [
   "https://images.pexels.com/photos/6168061/pexels-photo-6168061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-  "https://images.pexels.com/photos/5913170/pexels-photo-5913170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/5913391/pexels-photo-5913391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  "https://images.pexels.com/photos/5913170/pexels-photo-5913170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/4617820/pexels-photo-4617820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/6136086/pexels-photo-6136086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/4443477/pexels-photo-4443477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/4273989/pexels-photo-4273989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-  "https://images.pexels.com/photos/4352244/pexels-photo-4352244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-  "https://images.pexels.com/photos/3023211/pexels-photo-3023211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-  "https://images.pexels.com/photos/4066850/pexels-photo-4066850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/4806731/pexels-photo-4806731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "https://images.pexels.com/photos/5499131/pexels-photo-5499131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 ];

@@ -1,23 +1,17 @@
-import { CodegenConfig } from '@graphql-codegen/cli'
-const { loadEnvConfig } = require('@next/env')
-loadEnvConfig(process.cwd())
+import { CodegenConfig } from "@graphql-codegen/cli";
 
 const config: CodegenConfig = {
-	schema: `${process.env.NEXT_PUBLIC_WORDPRESS_URL?.replace(
-		/\/$/,
-		'',
-	)}/graphql`,
-	documents: ['src/**/*.{tsx,ts}'],
+	schema: "http://ncmaz-faustjs.local/graphql",
+	documents: ["src/**/*.{tsx,ts,js,jsx}", "!src/__generated__/**/*"],
 	generates: {
-		'./src/__generated__/': {
-			preset: 'client',
-			plugins: [],
+		"./src/__generated__/": {
+			preset: "client",
 			presetConfig: {
-				gqlTagName: 'gql',
+				gqlTagName: "gql",
 			},
 		},
 	},
 	ignoreNoDocuments: true,
-}
+};
 
-export default config
+export default config;
