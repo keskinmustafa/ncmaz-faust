@@ -177,7 +177,7 @@ export default {
 	Articles: 'Yazılar',
 	Authors: 'Yazarlar',
 	'Favorites list': 'Favori listesi',
-	Bookmarks: 'Yer imleri',
+	Bookmarks: 'Yer işaretleri',
 	'Sign in to your account': 'Hesabınıza giriş yapın',
 	'Copy link': 'Bağlantıyı kopyala',
 	'Link copied to clipboard': 'Bağlantı panoya kopyalandı',
