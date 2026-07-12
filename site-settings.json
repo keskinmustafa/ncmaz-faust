@@ -1,5 +1,5 @@
 {
-	"version": "2.7.0",
+	"version": "2.8.0",
 	"mailpoet_api_key": "your_mailpoet_api_key",
 	"mailpoet_list_id": "3",
 	"subcription_widget": {
@@ -12,14 +12,14 @@
 	},
 	"newsletter_section": {
 		"enable": true,
-		"title": "Bültene katıl 🎉",
-		"description": "Farklı konularda yeni bakış açılarını oku, paylaş ve keşfet. Herkese yer var.",
+		"title": "Yeni Yazılardan Haberdar Ol 🎉",
+		"description": "Yeni içerikler yayınlandığında ilk sen haberdar ol. Blogdaki güncel yazıları ve öne çıkan konuları kaçırma.",
 		"right_image": "/images/SVG-subcribe2.png",
-		"features_list": ["Ücretsiz hesap oluştur.", "Kendi hikâyelerini yaz."]
+		"features_list": ["Yeni içerikleri takip et.", "Blogdaki öne çıkan yazıları keşfet."]
 	},
 	"top_banner": {
 		"enable": false,
-		"description": "Özel fırsatları ve yeni içerikleri kaçırma!",
+		"description": "Yeni yazıları ve öne çıkan içerikleri kaçırma!",
 		"end_link": {
 			"url": "https://www.mustafakeskin.net",
 			"text": "Hemen incele →",
@@ -28,8 +28,8 @@
 	},
 	"top_category_section": {
 		"enable": true,
-		"title": "En popüler 10 kategoriyi keşfet",
-		"sub_title": "En çok ilgi gören kategorilere şöyle bir göz atalım"
+		"title": "Öne Çıkan Konular",
+		"sub_title": "Blogdaki en dikkat çeken kategorilere ve yeni içeriklere göz at."
 	},
 	"site_info": {
 		"site_title": "Mustafa Keskin Blog",
@@ -38,10 +38,10 @@
 		"site_author": "Mustafa Keskin",
 		"site_email": "info@mustafakeskin.net",
 		"site_phone": "Telefon",
-		"site_address": "Adres",
-		"site_city": "Şehir",
-		"site_state": "İlçe / Bölge",
-		"site_zip": "Posta Kodu",
+		"site_address": "Türkiye",
+		"site_city": "Tekirdağ",
+		"site_state": "Süleymanpaşa",
+		"site_zip": "59000",
 		"site_country": "Türkiye",
 		"site_url": "https://www.mustafakeskin.net",
 		"site_logo": "/logo.png",
@@ -50,10 +50,40 @@
 	},
 	"site_socials": [
 		{
-			"name": "facebook",
-			"url": "https://www.facebook.com/yourfacebookpage",
+			"name": "Facebook",
+			"url": "https://www.facebook.com/mustafakeskin",
 			"icon": "/images/socials/facebook.svg",
-			"description": "Bizi Facebook’ta takip edin"
+			"description": "Beni Facebook’ta takip et"
+		},
+		{
+			"name": "Instagram",
+			"url": "https://www.instagram.com/mustafakeskin",
+			"icon": "/images/socials/instagram.svg",
+			"description": "Beni Instagram’da takip et"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://www.youtube.com/@mustafakeskin",
+			"icon": "/images/socials/youtube.svg",
+			"description": "YouTube kanalımı takip et"
+		},
+		{
+			"name": "TikTok",
+			"url": "https://www.tiktok.com/@mustafakeskin",
+			"icon": "/images/socials/tiktok.svg",
+			"description": "Beni TikTok’ta takip et"
+		},
+		{
+			"name": "X",
+			"url": "https://x.com/mustafakeskin",
+			"icon": "/images/socials/x-twitter.svg",
+			"description": "Beni X’te takip et"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://www.github.com/mustafakeskin",
+			"icon": "/images/socials/github.svg",
+			"description": "GitHub profilimi takip et"
 		}
 	],
 	"site_header": {
@@ -76,16 +106,16 @@
 			"title": "Önerilen aramalar",
 			"items": [
 				{
-					"title": "Programlama",
-					"url": "/search/posts/programlama"
-				},
-				{
-					"title": "Tasarım",
-					"url": "/search/posts/tasarim"
-				},
-				{
 					"title": "Teknoloji",
 					"url": "/search/posts/teknoloji"
+				},
+				{
+					"title": "Yaşam",
+					"url": "/search/posts/yasam"
+				},
+				{
+					"title": "Podcast",
+					"url": "/search/posts/podcast"
 				}
 			]
 		},
@@ -164,7 +194,7 @@
 		"title": "Şifrenizi mi unuttunuz?",
 		"sub_title": "Şifrenizi sıfırlamak için e-posta adresinizi aşağıya girin.",
 		"blockquote": {
-			"text": "Bu yapı, içerikleri daha hızlı yayına almama ve siteyi daha pratik yönetmeme ciddi şekilde yardımcı oldu.",
+			"text": "Yeni içeriklere ulaşmak ve hesabını yönetmek için buradan devam edebilirsin.",
 			"author": "Mustafa Keskin"
 		}
 	},
@@ -209,12 +239,26 @@
 			{
 				"name": "address",
 				"title": "🚀 ADRES",
-				"desc": "Türkiye"
+				"desc": "Tekirdağ, Türkiye"
 			},
 			{
 				"name": "email",
 				"title": "💌 E-POSTA",
 				"desc": "info@mustafakeskin.net"
+			},
+			{
+				"name": "phone",
+				"title": "☎️ TELEFON",
+				"desc": "Telefon bilgisi daha sonra eklenecek"
+			},
+			{
+				"name": "working_hours",
+				"title": "🕒 ÇALIŞMA SAATLERİ",
+				"desc": "Hafta içi: 09:00 - 18:00"
+			},
+			{
+				"name": "socials",
+				"title": "👋 SOSYAL MEDYA"
 			}
 		]
 	},
@@ -237,7 +281,7 @@
 	},
 	"discussion_settings": {
 		"enable": true,
-		"must_logged_in_to_comment": false
+		"must_logged_in_to_comment": true
 	},
 	"general_settings": {
 		"timeFormat": "HH:mm",
