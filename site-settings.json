@@ -1,49 +1,49 @@
 {
-	"version": "2.8.0",
+	"version": "2.7.0",
 	"mailpoet_api_key": "your_mailpoet_api_key",
 	"mailpoet_list_id": "3",
 	"subcription_widget": {
 		"enable": true,
-		"title": "Stay up to date",
-		"description": "Get notified when I publish something new, and unsubscribe at any time.",
-		"placeholder": "Enter your email address",
-		"success_message": "Thank you for subscribing. You're in!",
-		"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+		"title": "Güncel kal",
+		"description": "Yeni bir içerik yayınladığımda haberdar ol. İstediğin zaman abonelikten çıkabilirsin.",
+		"placeholder": "E-posta adresinizi girin",
+		"success_message": "Abonelik tamam. Hoş geldin!",
+		"error_message": "Bir şeyler ters gitti. Lütfen tekrar deneyin. Sorun devam ederse benimle iletişime geçebilirsiniz."
 	},
 	"newsletter_section": {
 		"enable": true,
-		"title": "Join our newsletter 🎉",
-		"description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
+		"title": "Bültene katıl 🎉",
+		"description": "Farklı konularda yeni bakış açılarını oku, paylaş ve keşfet. Herkese yer var.",
 		"right_image": "/images/SVG-subcribe2.png",
-		"features_list": ["Create a free account.", "Write your stories."]
+		"features_list": ["Ücretsiz hesap oluştur.", "Kendi hikâyelerini yaz."]
 	},
 	"top_banner": {
-		"enable": true,
-		"description": "-50% Intro price for the next 72 hours only!.",
+		"enable": false,
+		"description": "Özel fırsatları ve yeni içerikleri kaçırma!",
 		"end_link": {
-			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
-			"text": "Buy now  →",
+			"url": "https://www.mustafakeskin.net",
+			"text": "Hemen incele →",
 			"new_tab": true
 		}
 	},
 	"top_category_section": {
 		"enable": true,
-		"title": "Discover top 10 categories",
-		"sub_title": "Let's explore the most popular categories"
+		"title": "En popüler 10 kategoriyi keşfet",
+		"sub_title": "En çok ilgi gören kategorilere şöyle bir göz atalım"
 	},
 	"site_info": {
-		"site_title": "Ncmaz Nextjs Blog",
-		"site_description": "Ncmaz Nextjs Blog headless WordPress",
-		"site_keywords": "Ncmaz Nextjs Blog",
-		"site_author": "ChisNghiax",
-		"site_email": "Your Email",
-		"site_phone": "Your Phone",
-		"site_address": "Your Address",
-		"site_city": "Your City",
-		"site_state": "Your State",
-		"site_zip": "Your Zip",
-		"site_country": "Your Country",
-		"site_url": "https://www.yoursite.com",
+		"site_title": "Mustafa Keskin Blog",
+		"site_description": "Mustafa Keskin kişisel blog ve içerik platformu",
+		"site_keywords": "Mustafa Keskin, blog, teknoloji, yaşam, içerik",
+		"site_author": "Mustafa Keskin",
+		"site_email": "info@mustafakeskin.net",
+		"site_phone": "Telefon",
+		"site_address": "Adres",
+		"site_city": "Şehir",
+		"site_state": "İlçe / Bölge",
+		"site_zip": "Posta Kodu",
+		"site_country": "Türkiye",
+		"site_url": "https://www.mustafakeskin.net",
 		"site_logo": "/logo.png",
 		"site_logo_light": "/logo-light.png",
 		"site_favicon": "/favicon.png"
@@ -53,25 +53,7 @@
 			"name": "facebook",
 			"url": "https://www.facebook.com/yourfacebookpage",
 			"icon": "/images/socials/facebook.svg",
-			"description": "Follow us on Facebook"
-		},
-		{
-			"name": "twitter",
-			"url": "https://twitter.com/yourtwitterpage",
-			"icon": "/images/socials/x-twitter.svg",
-			"description": "Follow us on Twitter"
-		},
-		{
-			"name": "github",
-			"url": "https://www.github.com/yourmediumpage",
-			"icon": "/images/socials/github.svg",
-			"description": "Follow us on Github"
-		},
-		{
-			"name": "tiktok",
-			"url": "https://www.tiktok.com/yourtiktokpage",
-			"icon": "/images/socials/tiktok.svg",
-			"description": "Follow us on Tiktok"
+			"description": "Bizi Facebook’ta takip edin"
 		}
 	],
 	"site_header": {
@@ -91,19 +73,19 @@
 	"search_page": {
 		"recommended_searches": {
 			"enable": true,
-			"title": "Recommended searches",
+			"title": "Önerilen aramalar",
 			"items": [
 				{
-					"title": "Programming",
-					"url": "/search/posts/programming"
+					"title": "Programlama",
+					"url": "/search/posts/programlama"
 				},
 				{
-					"title": "Design",
-					"url": "/search/posts/design"
+					"title": "Tasarım",
+					"url": "/search/posts/tasarim"
 				},
 				{
-					"title": "Technology",
-					"url": "/search/posts/technology"
+					"title": "Teknoloji",
+					"url": "/search/posts/teknoloji"
 				}
 			]
 		},
@@ -131,23 +113,23 @@
 		"post_options": [
 			{
 				"name": "Schedule_Publication",
-				"label": "Schedule Publication",
+				"label": "Yayını Zamanla",
 				"enable": true
 			},
 			{
 				"name": "Post_Format",
-				"label": "Post Format",
+				"label": "Yazı Formatı",
 				"enable": true,
 				"options": [
 					{
 						"name": "standard",
 						"enable": true,
-						"label": "Standard"
+						"label": "Standart"
 					},
 					{
 						"name": "gallery",
 						"enable": true,
-						"label": "Gallery"
+						"label": "Galeri"
 					},
 					{
 						"name": "video",
@@ -157,124 +139,110 @@
 					{
 						"name": "audio",
 						"enable": true,
-						"label": "Audio"
+						"label": "Ses"
 					}
 				]
 			},
 			{
 				"name": "Allow_Comments",
-				"label": "Allow Comments",
+				"label": "Yorumlara İzin Ver",
 				"enable": true
 			},
 			{
 				"name": "Post_Style",
-				"label": "Post Style",
+				"label": "Yazı Stili",
 				"enable": true
 			},
 			{
 				"name": "Show_Right_Sidebar",
-				"label": "Show Right Sidebar",
+				"label": "Sağ Kenar Çubuğunu Göster",
 				"enable": true
 			}
 		]
 	},
 	"resetPassword_page": {
-		"title": "Lost your password?",
-		"sub_title": "Enter your email below to reset your password.",
+		"title": "Şifrenizi mi unuttunuz?",
+		"sub_title": "Şifrenizi sıfırlamak için e-posta adresinizi aşağıya girin.",
 		"blockquote": {
-			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
-			"author": "Chis agency"
+			"text": "Bu yapı, içerikleri daha hızlı yayına almama ve siteyi daha pratik yönetmeme ciddi şekilde yardımcı oldu.",
+			"author": "Mustafa Keskin"
 		}
 	},
 	"signUp_page": {
-		"title": "Create an account",
-		"sub_title": "Enter your email below to create your account.",
+		"title": "Hesap oluştur",
+		"sub_title": "Hesabınızı oluşturmak için e-posta adresinizi aşağıya girin.",
 		"blockquote": {
-			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
-			"author": "Chis agency"
+			"text": "İçerik üretmek, fikirleri paylaşmak ve yeni şeyler keşfetmek için güzel bir başlangıç noktası.",
+			"author": "Mustafa Keskin"
 		}
 	},
 	"signIn_page": {
-		"title": "Sign in to your account",
-		"sub_title": "Enter your email below to sign in to your account.",
+		"title": "Hesabınıza giriş yapın",
+		"sub_title": "Hesabınıza giriş yapmak için e-posta adresinizi aşağıya girin.",
 		"blockquote": {
-			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
-			"author": "Chis agency"
+			"text": "İçeriklere ulaşmak, yorum yapmak ve kendi alanınızı yönetmek için giriş yapabilirsiniz.",
+			"author": "Mustafa Keskin"
 		},
 		"lost_password": {
 			"is_use_lostpassword_default_of_wp": false,
-			"message": "Lost password not implemented yet! Please contact admmin for support.",
-			"url_lostpassword_default_of_wp": "https://yourwebsite.com/wp-login.php?action=lostpassword"
+			"message": "Şifre sıfırlama özelliği henüz aktif değil. Destek için yöneticiyle iletişime geçin.",
+			"url_lostpassword_default_of_wp": "https://wp.mustafakeskin.net/wp-login.php?action=lostpassword"
 		}
 	},
 	"mobile_nav_sidebar": {
-		"description": "Discover the most outstanding articles on all topics of life. Write your stories and share them with the community. "
+		"description": "Hayata, teknolojiye, yaşama ve merak edilen konulara dair öne çıkan içerikleri keşfet. İstersen sen de hikâyeni paylaş."
 	},
 	"help_page": {
 		"uri": "/helps",
-		"title": "Helps",
-		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+		"title": "Yardım",
+		"sub_title": "Merak ettiğiniz konular, sık sorulanlar ve site kullanımıyla ilgili bilgiler burada."
 	},
 	"contact_page": {
 		"enable": true,
-		"title": "Get in touch",
-		"sub_title": "We’d love to hear from you. Fill out the form below to get in touch with us.",
+		"title": "İletişime geç",
+		"sub_title": "Senden haber almak isterim. Aşağıdaki formu doldurarak benimle iletişime geçebilirsin.",
 		"form": {
-			"success_message": "🎉 Thank you for your message. We will get back to you soon.",
-			"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+			"success_message": "🎉 Mesajınız için teşekkürler. En kısa sürede geri dönüş yapacağım.",
+			"error_message": "Bir şeyler ters gitti. Lütfen tekrar deneyin. Sorun devam ederse benimle iletişime geçebilirsiniz."
 		},
 		"my_contact_info": [
 			{
 				"name": "address",
-				"title": "🚀 ADDRESS",
-				"desc": "123 Main Street, New York, NY 10001"
+				"title": "🚀 ADRES",
+				"desc": "Türkiye"
 			},
 			{
 				"name": "email",
-				"title": "💌 EMAIL",
-				"desc": "example@example.com"
-			},
-			{
-				"name": "phone",
-				"title": "☎️ PHONE",
-				"desc": "+88 123 456 789"
-			},
-			{
-				"name": "working_hours",
-				"title": "🕒 WORKING HOURS",
-				"desc": "Mon - Fri: 9:00 - 19:00"
-			},
-			{
-				"name": "socials",
-				"title": "👋 SOCIALS"
+				"title": "💌 E-POSTA",
+				"desc": "info@mustafakeskin.net"
 			}
 		]
 	},
 	"document_page": {
 		"enable": true,
 		"uri": "/documents",
-		"title": "Documents",
-		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+		"title": "Belgeler",
+		"sub_title": "Siteyle ilgili belgeler, kaynaklar ve bilgilendirici içerikler burada."
 	},
 	"cookies_policy_page": {
 		"uri": "#"
 	},
 	"privacy_policy_page": {
 		"uri": "/privacy-policy",
-		"title": "Privacy Policy"
+		"title": "Gizlilik Politikası"
 	},
 	"empty_state": {
-		"title": "No results found.",
-		"description": "We couldn’t find any results. Try for something else."
+		"title": "Sonuç bulunamadı.",
+		"description": "Aradığınız şeyle ilgili bir sonuç bulamadık. Başka bir şey denemeye ne dersiniz?"
 	},
 	"discussion_settings": {
 		"enable": true,
-		"must_logged_in_to_comment": true
+		"must_logged_in_to_comment": false
 	},
 	"general_settings": {
-		"timeFormat": "h:mm a",
-		"language": "en",
-		"timezone": "auto",
-		"dateFormat": "M j, Y"
+		"timeFormat": "HH:mm",
+		"language": "tr",
+		"timezone": "Europe/Istanbul",
+		"dateFormat": "j F Y"
 	}
 }
