@@ -1,7 +1,6 @@
 import { FC } from 'react'
 import Badge from '@/components/Badge/Badge'
 import MyImage from '../MyImage'
-import { NC_SITE_SETTINGS } from '@/contains/site-settings'
 import AddSubscriberForm from '../AddSubscriberForm'
 
 export interface SectionSubscribe2Props {
@@ -9,46 +8,47 @@ export interface SectionSubscribe2Props {
 }
 
 const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = '' }) => {
-	if (NC_SITE_SETTINGS.newsletter_section?.enable === false) {
-		return null
-	}
-
 	return (
 		<div
 			className={`nc-SectionSubscribe2 relative flex flex-col items-center lg:flex-row ${className}`}
 		>
 			<div className="mb-14 flex-shrink-0 lg:mb-0 lg:me-10 lg:w-2/5">
-				<h2 className="text-4xl font-semibold">
-					{NC_SITE_SETTINGS.newsletter_section?.title}
-				</h2>
-				<span className="mt-6 block text-neutral-500 dark:text-neutral-400">
-					{NC_SITE_SETTINGS.newsletter_section?.description}
+				<span className="text-xs font-medium uppercase tracking-wider text-neutral-400">
+					YENİ YAZILARDAN HABERDAR OL
 				</span>
+
+				<h2 className="mt-3 text-4xl font-semibold">
+					Yeni Yazılardan Haberdar Ol 🎉
+				</h2>
+
+				<span className="mt-6 block text-neutral-500 dark:text-neutral-400">
+					Yeni içerikler yayınlandığında ilk sen haberdar ol. Blogdaki güncel yazıları ve öne çıkan konuları kaçırma.
+				</span>
+
 				<ul className="mt-10 space-y-5">
-					{NC_SITE_SETTINGS.newsletter_section?.features_list?.map(
-						(item, index) => (
-							<li
-								key={index}
-								className="flex items-center space-x-4 rtl:space-x-reverse"
-							>
-								<Badge
-									name={'0' + (index + 1)}
-									color={!index ? 'red' : index == 1 ? 'indigo' : 'green'}
-								/>
-								<span className="font-medium text-neutral-700 dark:text-neutral-300">
-									{item}
-								</span>
-							</li>
-						),
-					)}
+					<li className="flex items-center space-x-4 rtl:space-x-reverse">
+						<Badge name="01" color="red" />
+						<span className="font-medium text-neutral-700 dark:text-neutral-300">
+							Yeni içerikleri takip et.
+						</span>
+					</li>
+
+					<li className="flex items-center space-x-4 rtl:space-x-reverse">
+						<Badge name="02" color="indigo" />
+						<span className="font-medium text-neutral-700 dark:text-neutral-300">
+							Blogdaki öne çıkan yazıları keşfet.
+						</span>
+					</li>
 				</ul>
+
 				<AddSubscriberForm className="relative mt-10 max-w-sm" />
 			</div>
+
 			<div className="flex-grow">
 				<MyImage
-					alt="subsc"
+					alt="Bültene katıl"
 					sizes="(max-width: 768px) 100vw, 50vw"
-					src={NC_SITE_SETTINGS.newsletter_section?.right_image || ''}
+					src="/images/SVG-subcribe2.png"
 					width={1450}
 					height={638}
 				/>

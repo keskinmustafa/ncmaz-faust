@@ -25,9 +25,9 @@ const AddSubscriberForm: FC<Props> = ({ className = '' }) => {
 	let THANKS = ''
 
 	if (data && called && data?.ncmazFaustAddSubscriberToMailpoet?.success) {
-		// thank you message after success subscribe
 		THANKS =
-			NC_SITE_SETTINGS.subcription_widget?.success_message || 'Thank you!'
+			NC_SITE_SETTINGS.subcription_widget?.success_message ||
+			'Abonelik tamam. Hoş geldin!'
 	}
 
 	if (data && called && !data?.ncmazFaustAddSubscriberToMailpoet?.success) {
@@ -35,7 +35,7 @@ const AddSubscriberForm: FC<Props> = ({ className = '' }) => {
 			error?.message ||
 			data?.ncmazFaustAddSubscriberToMailpoet?.errors ||
 			NC_SITE_SETTINGS.subcription_widget?.error_message ||
-			'Error'
+			'Bir şeyler ters gitti. Lütfen tekrar deneyin.'
 	}
 
 	return (
@@ -46,10 +46,11 @@ const AddSubscriberForm: FC<Props> = ({ className = '' }) => {
 				if (!email) {
 					return
 				}
-				// regex check email validation
-				if (!email.match(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/)) {
+
+				if (!email.match(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)) {
 					return
 				}
+
 				mutationAddSubscriber({
 					variables: {
 						user_email: email,
@@ -61,7 +62,7 @@ const AddSubscriberForm: FC<Props> = ({ className = '' }) => {
 				<Input
 					required
 					aria-required
-					placeholder={NC_SITE_SETTINGS.subcription_widget?.placeholder}
+					placeholder="E-posta adresinizi girin"
 					type="email"
 					onChange={(e) => setemail(e.target.value)}
 				/>
